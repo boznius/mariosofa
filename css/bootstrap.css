@@ -1,0 +1,41 @@
+html,body{
+    overflow: hidden;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-image: url("main-background.png");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.map-container-4{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.map-container-4 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+.const-msg .gears{
+    padding: 2rem 3.5rem;
+}
+
+.google-maps{
+
+}
+
+.facebook-page{
+
+}
